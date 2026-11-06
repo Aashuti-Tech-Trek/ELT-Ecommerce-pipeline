@@ -1,0 +1,11 @@
+# Files NOT uploaded to Cloud Build when deploying the Cloud Run job (Step 10)
+.git/
+.gitignore
+.env
+venv/
+data/
+__pycache__/
+.pytest_cache/
+tests/
+dashboards/
+docs/

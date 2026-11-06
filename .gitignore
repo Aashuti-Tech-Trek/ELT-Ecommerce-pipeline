@@ -1,0 +1,14 @@
+# Local data (CSVs are downloaded, never committed)
+data/
+
+# Secrets / environment
+.env
+*.json
+# ...but the bronze schema files ARE source code and must be committed
+!ingestion/schemas/*.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
